@@ -4,7 +4,7 @@ import pymysql.cursors
 
 connection = pymysql.connect(host='localhost',
                              user='root',
-                             password='59808sKWRTn')
+                             password='12345')
 
 connection.cursor().execute("""drop database users""")
 
